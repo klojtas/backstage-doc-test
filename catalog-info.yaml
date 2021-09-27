@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "doc-name"
+  description: "documentation description"
+  annotations:
+    github.com/project-slug: klojtas/backstage-doc-test
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "team-c"

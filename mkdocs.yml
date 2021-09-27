@@ -1,0 +1,8 @@
+site_name: "doc-name"
+site_description: "documentation description"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
